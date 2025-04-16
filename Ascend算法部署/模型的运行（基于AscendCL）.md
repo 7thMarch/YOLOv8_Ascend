@@ -2,11 +2,11 @@
 
 AscendCL（Ascend Computing Language）是一套用于在昇腾平台上开发深度神经网络应用的C语言API库，提供运行资源管理、内存管理、模型加载与执行、算子加载与执行、媒体数据处理等API，能够实现利用昇腾硬件计算资源、在昇腾CANN平台上进行深度学习推理计算、图形图像预处理、单算子加速计算等能力。简单来说，就是统一的API框架，实现对所有资源的调用。
 
-![AscendCL](./Images/AscendCL_CANN.png){:height='', width='400px'}
+![AscendCL](./Images/AscendCL_CANN.png)
 
 pyACL（Python Ascend Computing Language）就是在AscendCL的基础上使用CPython封装得到的Python API库，使用户可以通过Python进行昇腾AI处理器的运行管理、资源管理等。
 
-![pyAscendCL](./Images/pyAscendCL.png){:height='', width='400px'}
+![pyAscendCL](./Images/pyAscendCL.png)
 
 代码编写模板可以参考[快速入门](https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/Application%20Development%20Guide/aadgp/aclpythondevg_0001.html#ZH-CN_TOPIC_0000001723425033__section430918214352)。
 
