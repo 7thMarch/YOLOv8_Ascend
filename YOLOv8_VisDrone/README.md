@@ -16,3 +16,7 @@
 
 
 
+# 参考文献
+
+- [YOLOv5 小目标检测、无人机视角小目标检测](https://blog.csdn.net/u012505617/article/details/121753656)
+- [VisDrone 数据集](https://docs.ultralytics.com/zh/datasets/detect/visdrone/#dataset-yaml)
