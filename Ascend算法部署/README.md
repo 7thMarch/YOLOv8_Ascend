@@ -10,8 +10,6 @@
 
 <img src='./Images/Atlas%20200I%20DK%20A2.png' width='300px'>
 
-![Atlas 200I DK A2](){:height='', }
-
 开发环境示意图如下：
 
 ![MirrorFile](./Images/MirrorFile.png){:height='' width='600px'}
@@ -23,13 +21,13 @@
 - 开机：开机时，LED1与LED3绿灯依次亮，最终D3、LED1与LED3亮代表开发者套件已正常开机运行。
 - 下电：关机后，从电源接口处拔掉电源线切断外部电源，将开发者套件完全下电。
 
-![powerOn](./Images/powerOn.png){:height='' width='300px'}
+<img src='./Images/powerOn.png' width='300px'>
 
 ### （3）连接
 
 支持本机显示模式、远程登录模式两种方式。
 
-![connections](./Images/connections.png){:height='' width='600px'}
+<img src='./Images/connections.png' width='600px'>
 
 下面主要介绍远程登录方式的过程。
 
@@ -44,11 +42,11 @@
 通过SSH的方式进行登录，需要依次完成以下步骤：
 
 1. 安装Windows的USB网卡驱动
-
-    ![USB](./Images/USB%20RNDIS6.png)
+    <img src=./Images/USB%20RNDIS6.png>
 
 2. 配置PC接口IP地址：需要配置IPV4如下
-    ![IP](./Images/IP.png){:height='' width='300px'}
+    <img src=./Images/IP.png width='300px'>
+
 3. 远程登录：账号名root，密码Mind@123
    
 可以通过MobaXterm、Vscode连接，但Vscode需要提前配置共享网络，方便开发板下载远程连接服务器。
@@ -62,7 +60,7 @@
 
 共享网络配置（共享网络之前需要先ssh连接一下，确保能连上后再共享）：
 
-![sharedNetwork](./Images/sharedNetwork.png){:height='' width='600px'}
+<img src=./Images/sharedNetwork.png width='600px'>
 
 ## 二、模型部署与运行
 
