@@ -8,7 +8,9 @@
 
 硬件示意图如下：
 
-![Atlas 200I DK A2](./Images/Atlas%20200I%20DK%20A2.png){:height='', width='300px'}
+<img src='./Images/Atlas%20200I%20DK%20A2.png' width='300px'>
+
+![Atlas 200I DK A2](){:height='', }
 
 开发环境示意图如下：
 
