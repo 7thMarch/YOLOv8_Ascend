@@ -10,7 +10,7 @@ YOLO算法的部署主要依赖[ultralytics](https://github.com/ultralytics/ultr
 
 下图是YOLOv8网络结构的极简示意图，对应于[yolov8s.yaml](./core/configs/model/yolov8s.yaml)。
 
-![YOLOv8](./Images/YOLOv8.png){:height='', width='500px'}
+<img src=./Images/YOLOv8.png width='500px'>
 
 ### P2小目标检测层
 
@@ -20,7 +20,7 @@ YOLO算法的部署主要依赖[ultralytics](https://github.com/ultralytics/ultr
 
 下图是YOLOv8-p2网络结构的极简示意图，对应于[yolov8-p2.yaml](./core/configs/model/yolov8-p2.yaml)。
 
-![YOLOv8-p2](./Images/YOLOv8-p2.png){:height='', width='500px'}
+<img src=./Images/YOLOv8-p2.png width='500px'>
 
 ### BiFPN特征金字塔
 
@@ -80,7 +80,7 @@ class BiConcat3(nn.Module):
 
 下图是YOLOv8-p2-BiFPN1网络结构的极简示意图，对应于[yolov8-p2-BiFPN1.yaml](./core/configs/model/yolov8-p2-BiFPN.yaml)。
 
-![YOLOv8-p2-BiFPN1](./Images/YOLOv8-p2-BiFPN1.png){:height='', width='500px'}
+<img src=./Images/YOLOv8-p2-BiFPN1.png width='500px'>
 
 ## 模型训练与测试
 
