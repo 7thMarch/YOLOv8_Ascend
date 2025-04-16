@@ -12,7 +12,7 @@
 
 开发环境示意图如下：
 
-![MirrorFile](./Images/MirrorFile.png){:height='' width='600px'}
+<img src='./Images/MirrorFile.png' width='600px'>
 
 ### （2）[开机、关机与下电](https://www.hiascend.com/document/detail/zh/Atlas200IDKA2DeveloperKit/23.0.RC2/qs/qs_0023.html)
 
@@ -42,9 +42,11 @@
 通过SSH的方式进行登录，需要依次完成以下步骤：
 
 1. 安装Windows的USB网卡驱动
+   
     <img src=./Images/USB%20RNDIS6.png>
 
 2. 配置PC接口IP地址：需要配置IPV4如下
+   
     <img src=./Images/IP.png width='300px'>
 
 3. 远程登录：账号名root，密码Mind@123
