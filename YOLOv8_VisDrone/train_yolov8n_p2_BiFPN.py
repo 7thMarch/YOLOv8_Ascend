@@ -11,7 +11,7 @@ if __name__ == '__main__':
     model = YOLO(modelcfg_path).load(checkpoint_path)  # load a pretrained model (recommended for training)
 
     # Use the model
-    model.train(data=datayaml_path, imgsz=640, batch=16, workers=8, cache=False, epochs=100, device='cuda')  # train the model
+    model.train(data=datayaml_path, imgsz=640, batch=8, workers=8, cache=False, epochs=100, device='cuda')  # train the model
 
     # Test
     metrics = model.val(data=datayaml_path, imgsz=640, split='test')  # evaluate model performance on the validation set
