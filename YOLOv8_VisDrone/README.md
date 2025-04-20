@@ -9,14 +9,14 @@
 
 目标检测中对小目标的定义有两大类，分别是基于相对尺度定义（即待检测目标在整体图像中所占的相对面积较小）和基于绝对尺度定义（即从目标绝对像素大小这一角度考虑来对小目标进行定义）。目前最为通用的定义来自于目标检测领域的通用数据集——MS COCO数据集，将小目标定义为分辨率小于32像素×32像素的目标。
 
-## VisDrone数据集的处理
+## 模型训练
 
+## 模型验证/测试
 
-
-
-
+调用`val`函数，参数可以参考[官方文档](https://docs.ultralytics.com/zh/modes/val/#arguments-for-yolo-model-validation)。
 
 # 参考文献
 
 - [YOLOv5 小目标检测、无人机视角小目标检测](https://blog.csdn.net/u012505617/article/details/121753656)
+- [基于YOLOv8训练无人机视角Visdrone2019数据集](https://blog.csdn.net/weixin_45679938/article/details/142439297)
 - [VisDrone 数据集](https://docs.ultralytics.com/zh/datasets/detect/visdrone/#dataset-yaml)

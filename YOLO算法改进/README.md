@@ -4,7 +4,9 @@
 
 YOLO算法的部署主要依赖[ultralytics](https://github.com/ultralytics/ultralytics)库（实际开发时将ultralytics库直接安装到python环境中）。
 
-## 模型结构修改
+分别从数据、模型结构、训练策略等方面进行改进。
+
+## 模型结构
 
 为了适应对小目标检测的需求，引入P2小目标检测层、BiFPN特征金字塔融合。
 
